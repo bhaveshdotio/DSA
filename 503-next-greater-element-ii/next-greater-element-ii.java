@@ -7,7 +7,7 @@ class Solution {
             arr[i] = -1;
 
             for (int j = 1; j < n; j++) {
-
+                //used to deal with circular arrayss 
                 int index = (i + j) % n;
 
                 if (nums[index] > nums[i]) {
